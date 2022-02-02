@@ -2,9 +2,8 @@ const mongoose= require('mongoose');
 
 const fileUpload=new mongoose.Schema({
 
-    name: String,
-    desc: String,
-    img:
+  
+    image:
     {
        
         contentType: String
